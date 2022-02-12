@@ -1,0 +1,37 @@
+.row {
+    background: #DDDDDD;
+background: -webkit-linear-gradient(top left, #DDDDDD, #595959);
+background: -moz-linear-gradient(top left, #DDDDDD, #595959);
+background: linear-gradient(to bottom right, #DDDDDD, #595959);
+    border: 1px dashed black;
+    opacity:1;
+    animation-name: example7;
+      animation-duration: 50s;
+      animation-iteration-count: 10;
+  }
+   @keyframes example7 {
+  
+    5%   {background-color:#DDDDDD;transform: rotateX(10deg); }
+    20%   {background-color:#DDDDDD;transform: rotateY(20deg); }
+    30%   {background-color:#DDDDDD;transform: rotateZ(20deg); }
+    40%   {background-color:#DDDDDD;transform: rotateX(20deg); }
+    50%   {background-color:#DDDDDD;transform: rotateY(10deg); }
+    70%   {background-color:#DDDDDD;transform: rotateX(30deg); }
+    80%   {background-color:#DDDDDD;transform: rotateY(30deg); }
+   
+    
+    
+    }
+
+ 
+
+    /*
+    .first-data {
+    background-color: #bb25e00c;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 12;
+  }
+  
+  */

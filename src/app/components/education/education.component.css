@@ -1,0 +1,33 @@
+.row {
+    background-color:#DDDDDD;
+    border: 1px dashed black;
+    animation-name: example5;
+      animation-duration: 30s;
+      animation-iteration-count: 10;
+      opacity:1;
+  }
+   @keyframes example5 {
+  
+    15%   {background-color:#DDDDDD;transform: rotateX(10deg); }
+    20%   {background-color:#DDDDDD;transform: rotateY(20deg); }
+    30%   {background-color:#DDDDDD;transform: rotateZ(20deg); }
+    40%   {background-color:#DDDDDD;transform: rotateX(20deg); }
+    50%   {background-color:#DDDDDD;transform: rotateY(10deg); }
+    70%   {background-color:#DDDDDD;transform: rotateX(30deg); }
+    80%   {background-color:#DDDDDD;transform: rotateY(30deg); }
+    
+    
+    }
+
+   
+
+    /*
+    .first-data {
+    background-color: #bb25e00c;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 12;
+  }
+  
+  */
